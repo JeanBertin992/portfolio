@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Bertin-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav id="navbar">
+        <div class="logo">JeanBerin</div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Section Hero avec particules en background | Angular | Laravel-->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>Bonjour, je suis <span class="highlight">HABINSHUTI Jean Bertin</span></h1>
+            <p>Développeur Full Stack </p>
+            <div class="hero-bio">
+                <p>24 ans | Licence en Systèmes Informatiques et Génie Logiciel</p>
+            </div>
+            <a href="#projects" class="cta-button">Découvrez mes projets</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/photo-profile.png" alt="Photo de HABINSHUTI Jean Bertin">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Diplômé en Systèmes Informatiques et Génie Logiciel, je suis passionné par le développement web et les nouvelles technologies.
+                    Spécialisé dans les frameworks Angular et Laravel, je crée des applications web modernes, performantes et évolutives.
+                </p>
+                <p>
+                    Mon objectif est de concilier esthétique et fonctionnalité pour offrir la meilleure expérience utilisateur possible.
+                </p>
+                
+                <div class="experience">
+                    <h3>Mon parcours</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Licence en Systèmes Informatiques et Génie Logiciel</h4>
+                            <p>Institut des Sciences et Techniques Professionnels ISTP | 2023 - 2024</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Développeur Full Stack Junior</h4>
+                            <p>Innov Tech Solutions | 2025 - Présent</p>
+                            <ul>
+                                <li>Développement d'applications web avec Angular et Laravel</li>
+                                <li>Création d'API RESTful</li>
+                                <li>Collaboration avec des équipes pluridisciplinaires</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills">
+                    <h3>Mes compétences techniques</h3>
+                    <div class="skills-container" id="skills-container">
+                        <!-- Rempli dynamiquement par JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <h2>Mes projets</h2>
+        <div class="projects-grid" id="projects-grid">
+            <!-- Rempli dynamiquement par JS -->
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Contactez-moi</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit" class="cta-button"><a href="mailto:jeanbertinho@gmail.com" style="text-decoration: none; color: white;font-size: 18px;">Envoyer</a></button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/JeanBertin992" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/jeanbertinho@gmail" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 HB Jean Bertin. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
